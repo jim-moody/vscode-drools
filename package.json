@@ -1,0 +1,26 @@
+{
+    "name": "drools",
+    "displayName": "Drools",
+    "description": "Language support for Drools files (.drl)",
+    "version": "0.0.1",
+    "publisher": "jim-moody",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "drools",
+            "aliases": ["Drools", "drools"],
+            "extensions": [".drl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "drools",
+            "scopeName": "source.drools",
+            "path": "./syntaxes/Drools.tmLanguage"
+        }]
+    }
+}

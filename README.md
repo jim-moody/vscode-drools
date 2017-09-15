@@ -13,6 +13,6 @@ See image for example .drl syntax highlighting
 Special thanks to https://github.com/mboyajia/drools-syntax-highlighter for the .tmLanguage file.
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial Release, enjoy!

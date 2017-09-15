@@ -4,6 +4,7 @@
     "description": "Language support for Drools files (.drl)",
     "version": "0.0.1",
     "publisher": "jim-moody",
+    "repository": "https://github.com/jim-moody/vscode-drools",
     "engines": {
         "vscode": "^1.16.0"
     },

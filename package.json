@@ -2,15 +2,19 @@
     "name": "drools",
     "displayName": "Drools",
     "description": "Language support for Drools files (.drl)",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "jim-moody",
-    "repository": "https://github.com/jim-moody/vscode-drools",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jim-moody/vscode-drools"
+    },
     "engines": {
         "vscode": "^1.16.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
+    "icon": "images/icon.png",
     "contributes": {
         "languages": [{
             "id": "drools",

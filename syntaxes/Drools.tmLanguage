@@ -80,7 +80,7 @@
 			<key>comment</key>
 			<string>Double quote strings</string>
 			<key>match</key>
-			<string>(").*(")</string>
+			<string>("([^"]|"")*")</string>
 			<key>name</key>
 			<string>string.quoted.double.source.drools</string>
 		</dict>

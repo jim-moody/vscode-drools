@@ -1,7 +1,7 @@
 {
     "name": "drools",
     "displayName": "Drools",
-    "description": "Language support for Drools files (.drl)",
+    "description": "Language support for Drools files (.drl, .rdrl)",
     "version": "1.0.0",
     "publisher": "jim-moody",
     "repository": {
@@ -19,7 +19,7 @@
         "languages": [{
             "id": "drools",
             "aliases": ["Drools", "drools"],
-            "extensions": [".drl"],
+            "extensions": [".drl", ".rdrl"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{

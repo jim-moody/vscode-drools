@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>.drl</string>
+		<string>.rdrl</string>
 	</array>
 	<key>name</key>
 	<string>Drools</string>
